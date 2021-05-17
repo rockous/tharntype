@@ -1,0 +1,134 @@
+.atras{
+    color: whitesmoke;
+        font-weight: bold;
+        font-size: 1.5em;
+}
+.playing-container{
+    background-color:#222746;
+    width: 100%;
+    height: 5em;
+    position: absolute;
+    bottom: 0px;
+    border-radius:3em 3em 0px 0px;
+}
+.live-btn{
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.live{
+    width: 2em;
+    height: 2em;
+    background-color:skyblue;
+    border-radius: 50%;
+}
+.live2{
+    width: 2em;
+    height: 2em;
+    background-color:skyblue;
+    border-radius: 50%;
+}
+.botom{
+    width: 2em;
+    height: 2em;
+    transform: rotate(-180deg);
+    background-color:skyblue;
+    border-radius: 50%;
+}
+.main-content{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.playing-controls-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+
+}
+.cover-container{
+    width: 20em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cover-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.cover-image img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.progesive-bar-container{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:#222746;
+        
+}
+.progress-bar{
+    width: 80%;
+    height: 60%;
+    background-color:rgb(87, 201, 195);
+    position: relative;
+    border-radius: 5px;
+
+}
+.line{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    background-color:lightseagreen;
+}
+.circle{
+    width: 1em;
+    height: 1em;
+    transform: translateX(250%) translateY(-20%);
+    position: absolute;
+    background-color:lightseagreen;
+    border-radius: 50%;
+    border: solid 3px whitesmoke;
+
+}
+.bottom-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.bottom-container button{
+    background-color: transparent;
+    border: 0px;
+}
+.data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-song{
+    color: lightblue;
+    font-size: 2em;
+    font-style: italic;
+}
+.artist-song{
+    font-size: 1.5em;
+    color:whitesmoke;
+    font-style: italic;
+}

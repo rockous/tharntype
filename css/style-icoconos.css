@@ -1,0 +1,41 @@
+.nav_home{
+    width: 2em;
+    height: 2em;
+}
+.nav_search{
+    width: 2em;
+    height: 2em;
+}
+.nav_playlist{
+    width: 2em;
+    height: 2em;
+}
+.nav_favorites{
+    width: 2em;
+    height: 2em;
+}
+.nav-song{
+    width: 80%;
+    position:fixed;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 50%;
+    transform: translatex(-50%);
+    height: 3em;
+    border-radius: 3em;
+}
+@media screen and (min-width:720px) and (orientation:landscape)
+{
+    .nav-song{
+        position: fixed;
+        left: -5%;
+        top: 50%;
+        width: 30vh;
+        transform: rotate(90deg) translatex(0%) translatey(-20%);
+    }
+    .rotave_nav{
+        transform: rotate(-90deg);
+    }
+}    

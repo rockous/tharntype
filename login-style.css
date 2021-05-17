@@ -1,0 +1,133 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.main-container{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("../series/img/fondo.jpg");
+}
+.bg-container{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	background-color: rgba(64, 70 , 91, 0.3);
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.logo-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.logo-bg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.logo-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+	color:#42210C ;
+	font-size: 2.8em;
+}
+.logo{
+	width: 15em;
+}
+.form-container{
+	min-height: 35vh;
+}
+.input-container{
+	display: flex;
+	flex-direction: column;
+}
+.input-container label{
+	color: #F4F1DE;
+	font-size: 1.8em;
+}
+.input-container input{
+	height: 2em;
+	border-radius: 5px;
+	border: 0px;
+}
+.login-btn{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+	background-color:sandybrown;
+	color: #F4F1DE;
+	font-size: 1.5em;
+	border: 0px;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+.rockous-link{
+	margin-top: 1em;
+	width: 50%;
+	color:black;
+	text-align: center;
+}
+.sesion-title{
+	display: none;
+}
+@media screen and (min-width:720px) and (orientation:landscape)
+{
+	.main-container{
+		background-image: none;
+	}
+	.bg-container{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+
+	}
+	.logo-container{
+		width: 50%;
+		height: 100vh;
+		background-image: url("../series/img/fondo.jpg");
+	    background-position: center;
+		background-size: cover;
+	}
+	.logo-bg{
+		width:100%;
+		height: 100%;
+		background-color: rgba(64, 64 , 91, 0.3);
+	}
+	.form-container{
+		width: 50%;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #222746;
+	
+	}
+	.logo{
+		width:25em;
+	}
+	.logo-title{
+		font-size: 6em;
+	}
+	.sesion-title{
+		display: block;
+		color:white;
+		font-size: 3em;
+	}
+	.form{
+		width: 70%;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.input-container{
+		width: 100%;
+	}
+	.rockous-link{
+		font-size: 1.5em;
+	}
+
+}
